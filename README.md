@@ -12,9 +12,16 @@ Password: 123456
 Check that MySql is available on localhost:3306
 
 #################################################################################
+
 Error Disposal:
 #################################################################################
 
 In case program encounters DataType error 
 Check that the Youtube channel should not have emojis in Video Name / Video Description.
 
+In case program encounters Google API exhausted QuotaCheckError.RESOURCE_EXHAUSTED
+Check that the Google API used to harvest Youtube data is enabled and not exhausted its limit for the day. To overcome the issue change the Google API in the Python Script.
+
+
+
+################################ END of Read Me ############################################
